@@ -73,7 +73,7 @@ export default function Features() {
         <div className="grid grid-cols-1 lg:grid-cols-[5fr_7fr] gap-10 items-start">
 
           {/* Foto com badge */}
-          <div className="hidden lg:block sticky top-24">
+          <div className="lg:sticky lg:top-24">
             <div className="relative rounded-3xl overflow-hidden shadow-xl border border-slate-100">
               <img
                 src="/imagens/eugenio-banner.png"
