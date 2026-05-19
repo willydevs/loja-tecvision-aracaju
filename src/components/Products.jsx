@@ -74,7 +74,7 @@ export default function Products() {
             Catálogo completo para personalização
           </h2>
           <p className="text-slate-500 text-lg leading-relaxed">
-            Tudo o que você precisa para personalizar, imprimir e criar — em um só lugar.
+            Tudo o que você precisa para personalizar, imprimir e criar, em um só lugar.
           </p>
         </div>
 

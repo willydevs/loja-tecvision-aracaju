@@ -26,7 +26,7 @@ export default function About() {
                 Sobre a TECvision
               </span>
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
-                Mais que uma assistência técnica — somos parceiros do seu negócio
+                Mais que uma assistência técnica, somos parceiros do seu negócio
               </h2>
             </div>
 
@@ -34,7 +34,7 @@ export default function About() {
               Somos referência em assistência técnica para impressoras Epson, com profissionais capacitados, peças originais e atendimento rápido e de confiança.
             </p>
             <p className="text-slate-500 leading-relaxed">
-              Aqui, não vendemos só produtos — entregamos soluções completas para quem vive da personalização. Nosso compromisso é com a qualidade, a agilidade e a transparência em cada serviço prestado.
+              Aqui, não vendemos só produtos, entregamos soluções completas para quem vive da personalização. Nosso compromisso é com a qualidade, a agilidade e a transparência em cada serviço prestado.
             </p>
 
             {/* Values */}

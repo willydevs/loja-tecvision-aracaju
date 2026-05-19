@@ -33,7 +33,7 @@ export default function TargetAudience() {
               <span className="text-gradient">personalização</span>
             </h2>
             <p className="text-white/75 text-lg leading-relaxed">
-              Seja você um empreendedor, estúdio criativo, gráfica ou fotógrafo — a TECvision tem o equipamento, o insumo e o suporte técnico que o seu negócio precisa para não parar.
+              Seja você um empreendedor, estúdio criativo, gráfica ou fotógrafo, a TECvision tem o equipamento, o insumo e o suporte técnico que o seu negócio precisa para não parar.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <a

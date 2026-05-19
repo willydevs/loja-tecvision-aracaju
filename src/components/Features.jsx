@@ -4,7 +4,7 @@ const FEATURES = [
   {
     icon: Cpu,
     title: 'Especialistas Epson',
-    desc: 'Somos referência no atendimento a impressoras Epson — conhecemos cada detalhe da linha de equipamentos.',
+    desc: 'Somos referência no atendimento a impressoras Epson, conhecemos cada detalhe da linha de equipamentos.',
     color: 'text-white',
     bg: 'bg-brand-700',
     highlight: true,
@@ -65,7 +65,7 @@ export default function Features() {
             Qualidade e confiança em cada detalhe
           </h2>
           <p className="text-slate-500 text-lg leading-relaxed">
-            Nossos diferenciais garantem que você sempre tenha a melhor experiência —<br className="hidden sm:block" /> do diagnóstico à entrega.
+            Nossos diferenciais garantem que você sempre tenha a melhor experiência, do diagnóstico à entrega.
           </p>
         </div>
 
