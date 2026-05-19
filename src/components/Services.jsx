@@ -1,10 +1,10 @@
-import { MessageCircle, ArrowRight } from 'lucide-react'
+import { MessageCircle, ArrowRight, Printer, Monitor, Flame } from 'lucide-react'
 
 const WA_BASE = 'https://web.whatsapp.com/send?phone=557999068449&text='
 
 const SERVICES = [
   {
-    img: '/imagens/impressora.png',
+    Icon: Printer,
     title: 'Manutenção de Impressora',
     desc: 'Diagnóstico preciso, limpeza de cabeçote, troca de peças e recalibração. Atendemos todas as linhas Epson e outras marcas.',
     items: ['Limpeza de cabeçote', 'Troca de almofadas', 'Recalibração de cores', 'Diagnóstico completo'],
@@ -15,7 +15,7 @@ const SERVICES = [
     waText: 'Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20para%20manuten%C3%A7%C3%A3o%20de%20impressora.',
   },
   {
-    img: '/imagens/projetor.png',
+    Icon: Monitor,
     title: 'Manutenção de Projetor',
     desc: 'Troca de lâmpadas, limpeza óptica, ajuste de foco e correção de falhas de imagem. Projetores de todas as marcas.',
     items: ['Troca de lâmpada', 'Limpeza óptica', 'Ajuste de foco', 'Reparo eletrônico'],
@@ -26,7 +26,7 @@ const SERVICES = [
     waText: 'Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento%20para%20manuten%C3%A7%C3%A3o%20de%20projetor.',
   },
   {
-    img: '/imagens/sublimacao.png',
+    Icon: Flame,
     title: 'Sublimação',
     desc: 'Produtos, insumos e orientação para quem trabalha com sublimação. Tintas, papéis, prensas e todo o suporte técnico.',
     items: ['Tintas sublimáticas', 'Papéis transfer', 'Prensas térmicas', 'Suporte técnico'],
@@ -57,7 +57,7 @@ export default function Services() {
 
         {/* Cards */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {SERVICES.map(({ img, title, desc, items, gradient, border, tag, tagColor, waText }) => (
+          {SERVICES.map(({ Icon, title, desc, items, gradient, border, tag, tagColor, waText }) => (
             <div
               key={title}
               className={`group relative rounded-3xl overflow-hidden border ${border} bg-white shadow-card hover:shadow-card-hover hover:-translate-y-2 transition-all duration-300`}
@@ -69,8 +69,8 @@ export default function Services() {
                     {tag}
                   </span>
                 )}
-                <div className="w-20 h-20 rounded-2xl bg-white/15 flex items-center justify-center mb-6 p-3">
-                  <img src={img} alt={title} className="w-full h-full object-contain" />
+                <div className="w-20 h-20 rounded-2xl bg-white/15 flex items-center justify-center mb-6">
+                  <Icon className="w-10 h-10 text-white" />
                 </div>
                 <h3 className="text-white text-2xl font-bold mb-3">{title}</h3>
                 <p className="text-white/70 text-sm leading-relaxed">{desc}</p>

@@ -73,7 +73,7 @@ export default function Hero() {
             <div className="relative w-full max-w-sm">
               <div className="rounded-3xl overflow-hidden shadow-2xl border border-white/20">
                 <img
-                  src="/imagens/imagem doutor eugenio.png"
+                  src="/imagens/eugenio-tecnico.png"
                   alt="Especialista TECvision"
                   className="w-full h-auto object-cover"
                 />

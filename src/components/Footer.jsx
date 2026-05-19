@@ -9,7 +9,7 @@ function InstagramIcon({ className }) {
 }
 
 const WA_LINK = 'https://web.whatsapp.com/send?phone=557999068449&text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20ajuda'
-const IG_LINK = 'https://www.instagram.com/tec_vision/'
+const IG_LINK = 'https://www.instagram.com/lojatecvision/'
 
 const NAV_LINKS = [
   { label: 'Início', href: '#inicio' },

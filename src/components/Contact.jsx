@@ -9,7 +9,7 @@ function InstagramIcon({ className }) {
 }
 
 const WA_LINK = 'https://web.whatsapp.com/send?phone=557999068449&text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20ajuda'
-const IG_LINK = 'https://www.instagram.com/tec_vision/'
+const IG_LINK = 'https://www.instagram.com/lojatecvision/'
 const MAPS_LINK = 'https://www.google.com/maps/search/?api=1&query=Av.+Hermes+Fontes,+1000+Suiça+Aracaju+SE'
 const MAPS_EMBED = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.1!2d-37.0731!3d-10.9167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDU1JzAwLjEiUyAzN8KwMDQnMjMuMiJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr'
 
@@ -63,7 +63,7 @@ export default function Contact() {
                 <InstagramIcon className="w-8 h-8" />
               </div>
               <div>
-                <p className="font-bold text-xl">@tec_vision</p>
+                <p className="font-bold text-xl">@lojatecvision</p>
                 <p className="text-white/80 text-sm mt-0.5">Siga no Instagram e acompanhe novidades</p>
               </div>
               <svg className="w-6 h-6 ml-auto opacity-70 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

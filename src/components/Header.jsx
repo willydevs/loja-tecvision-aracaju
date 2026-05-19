@@ -35,7 +35,7 @@ export default function Header() {
           {/* Logo */}
           <a href="#inicio" className="flex items-center group">
             <img
-              src="/imagens/logo-tecvision.png"
+              src={scrolled ? '/imagens/logo-tecvision.png' : '/imagens/logo-tecvision-branca.png'}
               alt="TECvision"
               className="h-12 w-auto object-contain transition-opacity group-hover:opacity-85"
             />
